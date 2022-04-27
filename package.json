@@ -1,0 +1,27 @@
+{
+  "name": "usydbc-wg-10-team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilgru/USYDBC-WG-10-Team-Profile-Generator.git"
+  },
+  "author": "wilgru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilgru/USYDBC-WG-10-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/wilgru/USYDBC-WG-10-Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.3",
+    "jest": "^28.0.2"
+  }
+}
