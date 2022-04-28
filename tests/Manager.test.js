@@ -1,12 +1,12 @@
-const Shape = require("./Employee")
+const Manager = require("../lib/Manager")
 
-class Manager extends Employee {
-    constructor(officeNumber) {
-        this.officeNumber = officeNumber
-        this.role = "Manager"
-    }
+describe("Emplyee", () => {
+    describe("getRole", () => {
+        it("Should return the string 'Manager'", () => {
+            const newManager = new Manager("John", "01", "john.doe@gmail.com", "johndoe1", "room_1");
+            const role = newManager.getRole();
 
-    getRole () {
-        return this.role;
-    }
-}
+            expect(role).toEqual("Manager");
+        })
+    })
+})
