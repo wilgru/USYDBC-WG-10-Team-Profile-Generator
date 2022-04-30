@@ -27,7 +27,7 @@ git clone git@github.com:wilgru/USYDBC-WG-10-Team-Profile-Generator.git
 
 Run the program using the following command:
 
-```javascript
+```bash
 node index.js
 ```
 
@@ -36,7 +36,7 @@ node index.js
 
 Run tests using the following command:
 
-```javascript
+```bash
 node run tests
 ```
 
