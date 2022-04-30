@@ -19,7 +19,7 @@ A nodeJS program that generates a HTML page withh a roster for employees
 Install the program using the following git command in thhe terminal:
 
 ```bash
-git clone
+git clone git@github.com:wilgru/USYDBC-WG-10-Team-Profile-Generator.git
 ```
 
 <a name="Usage"></a>
