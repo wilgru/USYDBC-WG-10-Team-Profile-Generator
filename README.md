@@ -16,7 +16,7 @@ A Node.js command-line application that generates a HTML page with a roster of e
 <a name="Installation"></a>
 ## Installation
 
-Install the program using the following git command in thhe terminal:
+Install the program using the following git clone command in the terminal:
 
 ```bash
 git clone git@github.com:wilgru/USYDBC-WG-10-Team-Profile-Generator.git
