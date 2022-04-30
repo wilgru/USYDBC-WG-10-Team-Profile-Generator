@@ -9,11 +9,13 @@ A nodeJS program that generates a HTML page withh a roster for employees
 
 [Installation](#Installation)  
 [Usage](#Usage)   
-[Usage](#Usage)  
+[Tests](#Tests)  
 [License](#License)  
 
 <a name="Installation"></a>
 ## Installation
+
+Install the program using the following git command in thhe terminal:
 
 ```bash
 git clone
@@ -21,6 +23,8 @@ git clone
 
 <a name="Usage"></a>
 ## Usage
+
+Run the program using the following command:
 
 ```javascript
 node index.js
