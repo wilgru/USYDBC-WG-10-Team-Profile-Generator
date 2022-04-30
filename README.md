@@ -3,7 +3,7 @@
 
 ## Description
 
-A nodeJS program that generates a HTML page withh a roster for employees
+A Node.js command-line application that generates a HTML page with a roster of employees for a software engineering team, with details for each employee.
 
 ## Table of Contents
 
@@ -29,15 +29,6 @@ Run the program using the following command:
 
 ```bash
 node index.js
-```
-
-<a name="Tests"></a>
-## Tests
-
-Run tests using the following command:
-
-```bash
-node run tests
 ```
 
 <a name="Demonstration"></a>
