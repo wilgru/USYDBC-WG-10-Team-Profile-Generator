@@ -31,6 +31,8 @@ Run the program using the following command:
 node index.js
 ```
 
+From there you will be prompted to input information for each employee you would like to add. The application will terminate once you've added all your employees (by selecting 'Done') and a HTML file will be generated in the application's directory.
+
 <a name="Demonstration"></a>
 ## Demonstration
 
