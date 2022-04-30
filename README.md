@@ -45,7 +45,7 @@ node run tests
 
 ![usage demo]()
 
-Watch a short demo of how to use the program [here](https://drive.google.com/file/d/1YrItE9_GkLq2-jaVYBNR4dp72e4qFJEA/view?usp=sharing)
+Watch a short demo of how to use the program [here]()
 
 <a name="License"></a>
 ## License
