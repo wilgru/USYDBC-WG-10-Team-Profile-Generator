@@ -86,9 +86,9 @@ function createManagerCard (manager) {
             <p style="margin: 0;">👔 Manager</p>
         </div>
         <div class="card-body">
-            <p class="card-text">ID: ${manager.id}</p>
-            <p class="card-text">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
-            <p class="card-text">Office ID: ${manager.officeId}</p>
+            <p class="card-text"><strong>ID:</strong> ${manager.id}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${manager.email}">${manager.email}</a></p>
+            <p class="card-text"><strong>Office ID:</strong> ${manager.officeId}</p>
         </div>
     </div>`
 
@@ -104,9 +104,9 @@ function createEngineerCard (engineer) {
             <p style="margin: 0;">🛠 Engineer</p>
         </div>
         <div class="card-body">
-            <p class="card-text">ID: ${engineer.id}</p>
-            <p class="card-text">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-            <p class="card-text">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+            <p class="card-text"><strong>ID:</strong> ${engineer.id}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${engineer.email}">${engineer.email}</a></p>
+            <p class="card-text"><strong>Github:</strong> <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
         </div>
     </div>`
 
@@ -122,9 +122,9 @@ function createInternCard (intern) {
             <p style="margin: 0;">📚 Intern</p>
         </div>
         <div class="card-body">
-            <p class="card-text">ID: ${intern.id}</p>
-            <p class="card-text">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
-            <p class="card-text">School: ${intern.school}</p>
+            <p class="card-text"><strong>ID:</strong> ${intern.id}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${intern.email}">${intern.email}</a></p>
+            <p class="card-text"><strong>School:</strong> ${intern.school}</p>
         </div>
     </div>`
 
