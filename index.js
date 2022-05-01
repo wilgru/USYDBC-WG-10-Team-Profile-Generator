@@ -4,4 +4,4 @@ const Setup = require("./lib/Setup")
 const setup = new Setup();
 
 // Start playing
-setup.addNewManager();
+setup.start();
