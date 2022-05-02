@@ -82,13 +82,13 @@ function createManagerCard (manager) {
     const template = 
     `<div class="card text-dark bg-light m-3 col employee-card">
         <div class="card-header text-light bg-primary">
-            <h3 class="card-title">${manager.name}</h3>
+            <h3 class="card-title">${manager.getName()}</h3>
             <p style="margin: 0;">👔 Manager</p>
         </div>
         <div class="card-body">
-            <p class="card-text"><strong>ID:</strong> ${manager.id}</p>
-            <p class="card-text"><strong>Email:</strong> <a href="mailto:${manager.email}">${manager.email}</a></p>
-            <p class="card-text"><strong>Office ID:</strong> ${manager.officeId}</p>
+            <p class="card-text"><strong>ID:</strong> ${manager.getId()}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
+            <p class="card-text"><strong>Office Number:</strong> ${manager.getOfficeNum()}</p>
         </div>
     </div>`
 
@@ -100,13 +100,13 @@ function createEngineerCard (engineer) {
     const template = 
     `<div class="card text-dark bg-light m-3 col employee-card">
         <div class="card-header text-light bg-success">
-            <h3 class="card-title">${engineer.name}</h3>
+            <h3 class="card-title">${engineer.getName()}</h3>
             <p style="margin: 0;">🛠 Engineer</p>
         </div>
         <div class="card-body">
-            <p class="card-text"><strong>ID:</strong> ${engineer.id}</p>
-            <p class="card-text"><strong>Email:</strong> <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-            <p class="card-text"><strong>Github:</strong> <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+            <p class="card-text"><strong>ID:</strong> ${engineer.getId()}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></p>
+            <p class="card-text"><strong>Github:</strong> <a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></p>
         </div>
     </div>`
 
@@ -118,13 +118,13 @@ function createInternCard (intern) {
     const template = 
     `<div class="card text-dark bg-light m-3 col employee-card">
         <div class="card-header text-light bg-warning">
-            <h3 class="card-title">${intern.name}</h3>
+            <h3 class="card-title">${intern.getName()}</h3>
             <p style="margin: 0;">📚 Intern</p>
         </div>
         <div class="card-body">
-            <p class="card-text"><strong>ID:</strong> ${intern.id}</p>
-            <p class="card-text"><strong>Email:</strong> <a href="mailto:${intern.email}">${intern.email}</a></p>
-            <p class="card-text"><strong>School:</strong> ${intern.school}</p>
+            <p class="card-text"><strong>ID:</strong> ${intern.getId()}</p>
+            <p class="card-text"><strong>Email:</strong> <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></p>
+            <p class="card-text"><strong>School:</strong> ${intern.getSchool()}</p>
         </div>
     </div>`
 
