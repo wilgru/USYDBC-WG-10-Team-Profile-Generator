@@ -38,7 +38,7 @@ From there you will be prompted to input information for each employee you would
 
 ![usage demo]()
 
-Watch a short demo of how to use the program [here]()
+Watch a short demo of how to use the program [here](https://drive.google.com/file/d/1kLDzUzv8w6w211QxkSldGgG-lgZgDc3m/view?usp=sharing)
 
 <a name="License"></a>
 ## License
