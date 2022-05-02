@@ -36,7 +36,7 @@ From there you will be prompted to input information for each employee you would
 <a name="Demonstration"></a>
 ## Demonstration
 
-![usage demo]()
+![usage demo](https://github.com/wilgru/USYDBC-WG-10-Team-Profile-Generator/blob/main/demo.png)
 
 Watch a short demo of how to use the program [here](https://drive.google.com/file/d/1kLDzUzv8w6w211QxkSldGgG-lgZgDc3m/view?usp=sharing)
 
